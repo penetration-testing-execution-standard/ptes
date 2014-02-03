@@ -1,0 +1,9 @@
+
+Starting Nmap 5.35DC1 ( http://nmap.org ) at 2011-05-31 14:32 PDT
+Nmap scan report for 192.168.15.229
+Host is up (0.11s latency).
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+MAC Address: 00:50:56:BC:37:3C (VMware)
+
+Nmap done: 1 IP address (1 host up) scanned in 3.02 seconds

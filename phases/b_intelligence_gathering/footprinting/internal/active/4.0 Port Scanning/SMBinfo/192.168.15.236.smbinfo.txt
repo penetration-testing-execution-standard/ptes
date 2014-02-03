@@ -1,0 +1,76 @@
+
+Starting Nmap 5.35DC1 ( http://nmap.org ) at 2011-05-31 14:32 PDT
+Nmap scan report for 192.168.15.236
+Host is up (0.11s latency).
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+MAC Address: 00:50:56:BC:3B:1D (VMware)
+
+Host script results:
+| smb-enum-users:  
+|   SUFFERENCE\backup (RID: 1068)
+|     Full name:   backup
+|     Flags:       Normal user account
+|   SUFFERENCE\bin (RID: 1004)
+|     Full name:   bin
+|     Flags:       Normal user account
+|   SUFFERENCE\bob (RID: 3002)
+|     Flags:       Normal user account
+|   SUFFERENCE\daemon (RID: 1002)
+|     Full name:   daemon
+|     Flags:       Normal user account
+|   SUFFERENCE\Debian-exim (RID: 1200)
+|     Flags:       Normal user account
+|   SUFFERENCE\games (RID: 1010)
+|     Full name:   games
+|     Flags:       Normal user account
+|   SUFFERENCE\gnats (RID: 1082)
+|     Full name:   Gnats Bug-Reporting System (admin)
+|     Flags:       Normal user account
+|   SUFFERENCE\identd (RID: 1204)
+|     Flags:       Normal user account
+|   SUFFERENCE\irc (RID: 1078)
+|     Full name:   ircd
+|     Flags:       Normal user account
+|   SUFFERENCE\list (RID: 1076)
+|     Full name:   Mailing List Manager
+|     Flags:       Normal user account
+|   SUFFERENCE\lp (RID: 1014)
+|     Full name:   lp
+|     Flags:       Normal user account
+|   SUFFERENCE\mail (RID: 1016)
+|     Full name:   mail
+|     Flags:       Normal user account
+|   SUFFERENCE\man (RID: 1012)
+|     Full name:   man
+|     Flags:       Normal user account
+|   SUFFERENCE\news (RID: 1018)
+|     Full name:   news
+|     Flags:       Normal user account
+|   SUFFERENCE\nobody (RID: 501)
+|     Full name:   nobody
+|     Flags:       Normal user account
+|   SUFFERENCE\proxy (RID: 1026)
+|     Full name:   proxy
+|     Flags:       Normal user account
+|   SUFFERENCE\root (RID: 1000)
+|     Full name:   root
+|     Flags:       Normal user account
+|   SUFFERENCE\sshd (RID: 1206)
+|     Flags:       Normal user account
+|   SUFFERENCE\statd (RID: 1202)
+|     Flags:       Normal user account
+|   SUFFERENCE\sync (RID: 1008)
+|     Full name:   sync
+|     Flags:       Normal user account
+|   SUFFERENCE\sys (RID: 1006)
+|     Full name:   sys
+|     Flags:       Normal user account
+|   SUFFERENCE\uucp (RID: 1020)
+|     Full name:   uucp
+|     Flags:       Normal user account
+|   SUFFERENCE\www-data (RID: 1066)
+|     Full name:   www-data
+|_    Flags:       Normal user account
+
+Nmap done: 1 IP address (1 host up) scanned in 4.31 seconds

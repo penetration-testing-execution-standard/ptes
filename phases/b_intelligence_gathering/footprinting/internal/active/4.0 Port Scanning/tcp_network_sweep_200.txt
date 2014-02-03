@@ -1,0 +1,4 @@
+# Nmap 5.35DC1 scan initiated Wed Jun 15 18:41:31 2011 as: nmap -A -p 1-65535 -Pn -vvv -oG tcp_network_sweep_200.txt 192.168.15.200
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 192.168.15.200 ()	Status: Down
+# Nmap done at Wed Jun 15 18:41:32 2011 -- 1 IP address (0 hosts up) scanned in 0.72 seconds

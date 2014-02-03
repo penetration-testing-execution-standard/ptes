@@ -1,0 +1,82 @@
+
+Starting Nmap 5.35DC1 ( http://nmap.org ) at 2011-05-31 14:32 PDT
+Nmap scan report for 192.168.15.224
+Host is up (0.11s latency).
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+MAC Address: 00:50:56:BC:79:A6 (VMware)
+
+Host script results:
+| smb-enum-users:  
+|   UBUNTU05\backup (RID: 1068)
+|     Full name:   backup
+|     Flags:       Normal user account
+|   UBUNTU05\bin (RID: 1004)
+|     Full name:   bin
+|     Flags:       Normal user account
+|   UBUNTU05\daemon (RID: 1002)
+|     Full name:   daemon
+|     Flags:       Normal user account
+|   UBUNTU05\dhcp (RID: 1200)
+|     Flags:       Normal user account
+|   UBUNTU05\dovecot (RID: 1208)
+|     Full name:   Dovecot mail server,,,
+|     Flags:       Normal user account
+|   UBUNTU05\games (RID: 1010)
+|     Full name:   games
+|     Flags:       Normal user account
+|   UBUNTU05\gnats (RID: 1082)
+|     Full name:   Gnats Bug-Reporting System (admin)
+|     Flags:       Normal user account
+|   UBUNTU05\irc (RID: 1078)
+|     Full name:   ircd
+|     Flags:       Normal user account
+|   UBUNTU05\klog (RID: 1204)
+|     Flags:       Normal user account
+|   UBUNTU05\list (RID: 1076)
+|     Full name:   Mailing List Manager
+|     Flags:       Normal user account
+|   UBUNTU05\lp (RID: 1014)
+|     Full name:   lp
+|     Flags:       Normal user account
+|   UBUNTU05\mail (RID: 1016)
+|     Full name:   mail
+|     Flags:       Normal user account
+|   UBUNTU05\man (RID: 1012)
+|     Full name:   man
+|     Flags:       Normal user account
+|   UBUNTU05\mysql (RID: 1206)
+|     Full name:   MySQL Server,,,
+|     Flags:       Normal user account
+|   UBUNTU05\news (RID: 1018)
+|     Full name:   news
+|     Flags:       Normal user account
+|   UBUNTU05\nobody (RID: 501)
+|     Full name:   nobody
+|     Flags:       Normal user account
+|   UBUNTU05\postfix (RID: 1210)
+|     Flags:       Normal user account
+|   UBUNTU05\proxy (RID: 1026)
+|     Full name:   proxy
+|     Flags:       Normal user account
+|   UBUNTU05\root (RID: 1000)
+|     Full name:   root
+|     Flags:       Normal user account
+|   UBUNTU05\sshd (RID: 1212)
+|     Flags:       Normal user account
+|   UBUNTU05\sync (RID: 1008)
+|     Full name:   sync
+|     Flags:       Normal user account
+|   UBUNTU05\sys (RID: 1006)
+|     Full name:   sys
+|     Flags:       Normal user account
+|   UBUNTU05\syslog (RID: 1202)
+|     Flags:       Normal user account
+|   UBUNTU05\uucp (RID: 1020)
+|     Full name:   uucp
+|     Flags:       Normal user account
+|   UBUNTU05\www-data (RID: 1066)
+|     Full name:   www-data
+|_    Flags:       Normal user account
+
+Nmap done: 1 IP address (1 host up) scanned in 4.61 seconds

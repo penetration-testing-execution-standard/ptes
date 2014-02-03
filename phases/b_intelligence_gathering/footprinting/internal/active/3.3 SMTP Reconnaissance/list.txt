@@ -1,0 +1,14 @@
+bob
+alice
+admin
+administrator
+root
+oracle
+guest
+krbtgt
+domain admins
+bin
+none
+ralph
+bacon
+david

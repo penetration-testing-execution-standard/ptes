@@ -1,0 +1,65 @@
+
+host A
+victim   - 172.16.59.129      00:0c:29:c7:d9:9b AC 10 3B 81
+
+host b
+gateway  - 172.16.59.2        00:50:56:f0:0a:6e AC 10 3B 02
+                              
+
+attacker - 172.16.59.131      00:0c:29:7d:6b:18 AC 10 3B 83
+
+
+[[ arp-replay packet ]]
+
+[ 1 ] (leave our machine, and sent to victim)
+ 
+We will start with the first 6 bytes of the dump, 
+the destination mac address needs to be changed to 
+reflect the victims MAC address :::
+
+[ 2 ] The next six bytes are the source MAC address :::
+source is our attacking machines MAC address :::
+
+leave everything else the untouched & move down to the 
+Sender MAC address: portion of the wireshark dump:::
+
+[ 3 ] Since we are sending the packet, Sender MAC address: 
+is the attacking machines MAC :::
+
+[ 4 ]  Sender IP address: 
+Going to contain our spoofed IP request. We are trying to
+update the victims ARP cache, and make it think that the 
+gateway IP address has our attacking MAC address :::
+Update the H3X dump so that the sender IP address appears 
+that if it came from the default gateway.
+
+[ 5 ] The next 6 bytes is our Target MAC address:
+Once again that is the MAC of the machine we are 
+trying to contact (victim)
+
+[ 6 ] The Target IP address: is that of the victim machine.
+
+
+file2cable -i eth0 -f arp-replay
+
+
+[[ arp-gateway packet ]]
+
+[ 1 ] Destination MAC addresses
+
+As this packet is going to the gateway, the destination
+MAC address is the Gateway MAC Address :::
+
+[ 2 ] The source MAC is the attacking MAC :::
+
+[ 3 ] The Sender MAC address is the attacker MAC address :::
+
+[ 4 ] Sender IP Address is the field that we want to SPOOF,
+we are trying to convince the gateway to associate our MAC
+address with the IP address of our victim machine :::
+Sender IP address is that of the victim :::
+
+[ 5 ] Target MAC address: is that of the Gateway :::
+
+[ 6 ] Target IP Address is the Gateway IP :::
+

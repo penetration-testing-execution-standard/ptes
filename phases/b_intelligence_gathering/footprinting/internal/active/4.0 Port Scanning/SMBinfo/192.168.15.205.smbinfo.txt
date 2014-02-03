@@ -1,0 +1,44 @@
+
+Starting Nmap 5.35DC1 ( http://nmap.org ) at 2011-05-31 14:31 PDT
+Nmap scan report for 192.168.15.205
+Host is up (0.11s latency).
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+MAC Address: 00:50:56:BC:30:07 (VMware)
+
+Host script results:
+| smb-enum-users:  
+|   ORACLE2\admin (RID: 1004)
+|     Flags:       Normal user account
+|   ORACLE2\Administrator (RID: 500)
+|     Description: Built-in account for administering the computer/domain
+|     Flags:       Password does not expire, Normal user account
+|   ORACLE2\alice (RID: 1005)
+|     Flags:       Normal user account
+|   ORACLE2\backup (RID: 1006)
+|     Flags:       Normal user account
+|   ORACLE2\david (RID: 1007)
+|     Flags:       Normal user account
+|   ORACLE2\Guest (RID: 501)
+|     Description: Built-in account for guest access to the computer/domain
+|     Flags:       Password not required, Password does not expire, Account disabled, Normal user account
+|   ORACLE2\IUSR_ORACLE (RID: 1001)
+|     Full name:   Internet Guest Account
+|     Description: Built-in account for anonymous access to Internet Information Services
+|     Flags:       Password not required, Password does not expire, Normal user account
+|   ORACLE2\IWAM_ORACLE (RID: 1002)
+|     Full name:   Launch IIS Process Account
+|     Description: Built-in account for Internet Information Services to start out of process applications
+|     Flags:       Password not required, Password does not expire, Normal user account
+|   ORACLE2\john (RID: 1008)
+|     Flags:       Normal user account
+|   ORACLE2\lisa (RID: 1009)
+|     Flags:       Normal user account
+|   ORACLE2\mark (RID: 1010)
+|     Flags:       Normal user account
+|   ORACLE2\TsInternetUser (RID: 1000)
+|     Full name:   TsInternetUser
+|     Description: This user account is used by Terminal Services.
+|_    Flags:       Password not required, Password does not expire, Normal user account
+
+Nmap done: 1 IP address (1 host up) scanned in 20.20 seconds

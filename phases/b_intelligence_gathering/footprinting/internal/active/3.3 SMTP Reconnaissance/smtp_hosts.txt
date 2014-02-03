@@ -1,0 +1,279 @@
+
+Starting Nmap 5.35DC1 ( http://nmap.org ) at 2011-05-28 12:50 PDT
+Initiating ARP Ping Scan at 12:50
+Scanning 56 hosts [1 port/host]
+Completed ARP Ping Scan at 12:50, 1.09s elapsed (56 total hosts)
+Initiating Parallel DNS resolution of 56 hosts. at 12:50
+Completed Parallel DNS resolution of 56 hosts. at 12:51, 13.53s elapsed
+DNS resolution of 34 IPs took 13.53s. Mode: Async [#: 1, OK: 0, NX: 27, DR: 7, SF: 0, TR: 73, CN: 0]
+Nmap scan report for 192.168.15.200 [host down]
+Nmap scan report for 192.168.15.212 [host down]
+Nmap scan report for 192.168.15.214 [host down]
+Nmap scan report for 192.168.15.216 [host down]
+Nmap scan report for 192.168.15.218 [host down]
+Nmap scan report for 192.168.15.219 [host down]
+Nmap scan report for 192.168.15.225 [host down]
+Nmap scan report for 192.168.15.228 [host down]
+Nmap scan report for 192.168.15.232 [host down]
+Nmap scan report for 192.168.15.233 [host down]
+Nmap scan report for 192.168.15.237 [host down]
+Nmap scan report for 192.168.15.238 [host down]
+Nmap scan report for 192.168.15.239 [host down]
+Nmap scan report for 192.168.15.240 [host down]
+Nmap scan report for 192.168.15.243 [host down]
+Nmap scan report for 192.168.15.244 [host down]
+Nmap scan report for 192.168.15.246 [host down]
+Nmap scan report for 192.168.15.248 [host down]
+Nmap scan report for 192.168.15.250 [host down]
+Nmap scan report for 192.168.15.253 [host down]
+Nmap scan report for 192.168.15.254 [host down]
+Nmap scan report for 192.168.15.255 [host down]
+Initiating SYN Stealth Scan at 12:51
+Scanning 34 hosts [1 port/host]
+Discovered open port 25/tcp on 192.168.15.222
+Discovered open port 25/tcp on 192.168.15.227
+Discovered open port 25/tcp on 192.168.15.229
+Discovered open port 25/tcp on 192.168.15.215
+Discovered open port 25/tcp on 192.168.15.217
+Completed SYN Stealth Scan at 12:51, 3.96s elapsed (34 total ports)
+Nmap scan report for 192.168.15.201
+Host is up (0.034s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 16s
+PORT   STATE  SERVICE
+25/tcp closed smtp
+MAC Address: 00:50:56:BC:5B:25 (VMware)
+
+Nmap scan report for 192.168.15.202
+Host is up (0.033s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 15s
+PORT   STATE  SERVICE
+25/tcp closed smtp
+MAC Address: 00:50:56:BC:2B:C3 (VMware)
+
+Nmap scan report for 192.168.15.203
+Host is up (0.0022s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 15s
+PORT   STATE    SERVICE
+25/tcp filtered smtp
+MAC Address: 00:50:56:BC:43:5E (VMware)
+
+Nmap scan report for 192.168.15.204
+Host is up (0.0023s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 15s
+PORT   STATE    SERVICE
+25/tcp filtered smtp
+MAC Address: 00:50:56:BC:23:1C (VMware)
+
+Nmap scan report for 192.168.15.205
+Host is up (0.035s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 15s
+PORT   STATE  SERVICE
+25/tcp closed smtp
+MAC Address: 00:50:56:BC:30:07 (VMware)
+
+Nmap scan report for 192.168.15.206
+Host is up (0.035s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 15s
+PORT   STATE  SERVICE
+25/tcp closed smtp
+MAC Address: 00:50:56:BC:15:F8 (VMware)
+
+Nmap scan report for 192.168.15.207
+Host is up (0.39s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 19s
+PORT   STATE    SERVICE
+25/tcp filtered smtp
+MAC Address: 00:50:56:BC:64:0C (VMware)
+
+Nmap scan report for 192.168.15.208
+Host is up (0.036s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 15s
+PORT   STATE  SERVICE
+25/tcp closed smtp
+MAC Address: 00:50:56:BC:1A:CC (VMware)
+
+Nmap scan report for 192.168.15.209
+Host is up (0.036s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 15s
+PORT   STATE  SERVICE
+25/tcp closed smtp
+MAC Address: 00:50:56:BC:73:1D (VMware)
+
+Nmap scan report for 192.168.15.210
+Host is up (0.036s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 15s
+PORT   STATE    SERVICE
+25/tcp filtered smtp
+MAC Address: 00:50:56:BC:78:E4 (VMware)
+
+Nmap scan report for 192.168.15.211
+Host is up (0.11s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 15s
+PORT   STATE  SERVICE
+25/tcp closed smtp
+MAC Address: 00:50:56:BC:35:4A (VMware)
+
+Nmap scan report for 192.168.15.213
+Host is up (0.11s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 16s
+PORT   STATE  SERVICE
+25/tcp closed smtp
+MAC Address: 00:50:56:BC:2F:9B (VMware)
+
+Nmap scan report for 192.168.15.215
+Host is up (0.11s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 16s
+PORT   STATE SERVICE
+25/tcp open  smtp
+MAC Address: 00:50:56:BC:0A:8C (VMware)
+
+Nmap scan report for 192.168.15.217
+Host is up (0.11s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 16s
+PORT   STATE SERVICE
+25/tcp open  smtp
+MAC Address: 00:50:56:BC:16:4C (VMware)
+
+Nmap scan report for 192.168.15.220
+Host is up (0.095s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 16s
+PORT   STATE    SERVICE
+25/tcp filtered smtp
+MAC Address: 00:50:56:BC:0C:4E (VMware)
+
+Nmap scan report for 192.168.15.221
+Host is up (0.11s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 15s
+PORT   STATE  SERVICE
+25/tcp closed smtp
+MAC Address: 00:50:56:BC:0D:6B (VMware)
+
+Nmap scan report for 192.168.15.222
+Host is up (0.11s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 15s
+PORT   STATE SERVICE
+25/tcp open  smtp
+MAC Address: 00:50:56:BC:0F:38 (VMware)
+
+Nmap scan report for 192.168.15.223
+Host is up (0.12s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 16s
+PORT   STATE  SERVICE
+25/tcp closed smtp
+MAC Address: 00:50:56:BC:55:FC (VMware)
+
+Nmap scan report for 192.168.15.224
+Host is up (0.11s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 15s
+PORT   STATE  SERVICE
+25/tcp closed smtp
+MAC Address: 00:50:56:BC:79:A6 (VMware)
+
+Nmap scan report for 192.168.15.226
+Host is up (0.096s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 16s
+PORT   STATE    SERVICE
+25/tcp filtered smtp
+MAC Address: 00:50:56:BC:55:CE (VMware)
+
+Nmap scan report for 192.168.15.227
+Host is up (0.11s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 15s
+PORT   STATE SERVICE
+25/tcp open  smtp
+MAC Address: 00:50:56:BC:3C:EF (VMware)
+
+Nmap scan report for 192.168.15.229
+Host is up (0.11s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 15s
+PORT   STATE SERVICE
+25/tcp open  smtp
+MAC Address: 00:50:56:BC:37:3C (VMware)
+
+Nmap scan report for 192.168.15.230
+Host is up (0.12s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 16s
+PORT   STATE  SERVICE
+25/tcp closed smtp
+MAC Address: 00:50:56:BC:43:53 (VMware)
+
+Nmap scan report for 192.168.15.231
+Host is up (0.11s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 15s
+PORT   STATE  SERVICE
+25/tcp closed smtp
+MAC Address: 00:50:56:BC:21:A8 (VMware)
+
+Nmap scan report for 192.168.15.234
+Host is up (0.11s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 15s
+PORT   STATE  SERVICE
+25/tcp closed smtp
+MAC Address: 00:50:56:BC:32:1A (VMware)
+
+Nmap scan report for 192.168.15.235
+Host is up (0.11s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 15s
+PORT   STATE    SERVICE
+25/tcp filtered smtp
+MAC Address: 00:50:56:BC:24:CF (VMware)
+
+Nmap scan report for 192.168.15.236
+Host is up (0.11s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 16s
+PORT   STATE  SERVICE
+25/tcp closed smtp
+MAC Address: 00:50:56:BC:3B:1D (VMware)
+
+Nmap scan report for 192.168.15.241
+Host is up (0.11s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 16s
+PORT   STATE  SERVICE
+25/tcp closed smtp
+MAC Address: 00:50:56:BC:58:9B (VMware)
+
+Nmap scan report for 192.168.15.242
+Host is up (0.11s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 16s
+PORT   STATE  SERVICE
+25/tcp closed smtp
+MAC Address: 00:50:56:BC:51:30 (VMware)
+
+Nmap scan report for 192.168.15.245
+Host is up (0.093s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 16s
+PORT   STATE    SERVICE
+25/tcp filtered smtp
+MAC Address: 00:50:56:BC:61:2E (VMware)
+
+Nmap scan report for 192.168.15.247
+Host is up (0.11s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 16s
+PORT   STATE  SERVICE
+25/tcp closed smtp
+MAC Address: 00:50:56:BC:6D:05 (VMware)
+
+Nmap scan report for 192.168.15.249
+Host is up (0.11s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 16s
+PORT   STATE  SERVICE
+25/tcp closed smtp
+MAC Address: 00:50:56:BC:33:3A (VMware)
+
+Nmap scan report for 192.168.15.251
+Host is up (0.093s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 16s
+PORT   STATE    SERVICE
+25/tcp filtered smtp
+MAC Address: 00:50:56:BC:77:55 (VMware)
+
+Nmap scan report for 192.168.15.252
+Host is up (0.096s latency).
+Scanned at 2011-05-28 12:50:50 PDT for 16s
+PORT   STATE    SERVICE
+25/tcp filtered smtp
+MAC Address: 00:50:56:BC:52:05 (VMware)
+
+Read data files from: /usr/share/nmap
+Nmap done: 56 IP addresses (34 hosts up) scanned in 18.66 seconds
+           Raw packets sent: 138 (4.664KB) | Rcvd: 78 (2.696KB)

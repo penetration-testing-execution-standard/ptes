@@ -1,0 +1,48 @@
+
+Starting Nmap 5.35DC1 ( http://nmap.org ) at 2011-05-31 14:32 PDT
+Nmap scan report for 192.168.15.227
+Host is up (0.094s latency).
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+MAC Address: 00:50:56:BC:3C:EF (VMware)
+
+Host script results:
+| smb-enum-users:  
+|   SRV2\admin (RID: 1007)
+|     Flags:       Normal user account
+|   SRV2\Administrator (RID: 500)
+|     Description: Built-in account for administering the computer/domain
+|     Flags:       Password does not expire, Normal user account
+|   SRV2\alice (RID: 1008)
+|     Flags:       Normal user account
+|   SRV2\backup (RID: 1006)
+|     Full name:   backup
+|     Flags:       Password does not expire, Normal user account
+|   SRV2\david (RID: 1009)
+|     Flags:       Normal user account
+|   SRV2\Guest (RID: 501)
+|     Description: Built-in account for guest access to the computer/domain
+|     Flags:       Password not required, Password does not expire, Account disabled, Normal user account
+|   SRV2\IUSR_SRV2 (RID: 1002)
+|     Full name:   Internet Guest Account
+|     Description: Built-in account for anonymous access to Internet Information Services
+|     Flags:       Password not required, Password does not expire, Normal user account
+|   SRV2\IWAM_SRV2 (RID: 1003)
+|     Full name:   Launch IIS Process Account
+|     Description: Built-in account for Internet Information Services to start out of process applications
+|     Flags:       Password not required, Password does not expire, Normal user account
+|   SRV2\john (RID: 1010)
+|     Flags:       Normal user account
+|   SRV2\lisa (RID: 1011)
+|     Flags:       Normal user account
+|   SRV2\mark (RID: 1012)
+|     Flags:       Normal user account
+|   SRV2\sqlusr (RID: 1005)
+|     Full name:   sqlusr
+|     Flags:       Normal user account
+|   SRV2\TsInternetUser (RID: 1000)
+|     Full name:   TsInternetUser
+|     Description: This user account is used by Terminal Services.
+|_    Flags:       Password not required, Password does not expire, Normal user account
+
+Nmap done: 1 IP address (1 host up) scanned in 6.63 seconds
