@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require 'rainbow'
+require 'rainbow/ext/string'
 
 ## SNMP automatic enumeration script by Rick Flores (@nanotechz9l)]
 #  The IP gen code from line:13..line:66 was taken from wicked cool ruby scripts pg. 36 by Steve Pugh!
