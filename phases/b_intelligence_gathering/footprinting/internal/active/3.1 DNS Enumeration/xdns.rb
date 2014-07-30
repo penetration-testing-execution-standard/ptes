@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 require 'rainbow/ext/string';require "socket"
 
-TwoOctets = "00.00"
+TwoOctets = "68.71"
 
 def computer_exists?(computerip)
  system("ping -c 1 -W 1 #{computerip}")
@@ -31,44 +31,44 @@ def getInfo(current_ip)
 end
 
 
-(000..000).each do |i|
+(208..215).each do |i|
  case i
-   when 8
+   when 208
      for j in (1..10)
        current_ip = "#{TwoOctets}.#{i}.#{j}"
        getInfo(current_ip)
      end
-   when 9
+   when 209
      for j in (1..10)
        current_ip = "#{TwoOctets}.#{i}.#{j}"
        getInfo(current_ip)
      end
-   when 10
+   when 210
      for j in (1..10)
        current_ip = "#{TwoOctets}.#{i}.#{j}"
        getInfo(current_ip)
      end
-    when 11
+    when 211
      for j in (1..10)
        current_ip = "#{TwoOctets}.#{i}.#{j}"
        getInfo(current_ip)
      end
-    when 12
+    when 212
      for j in (1..10)
        current_ip = "#{TwoOctets}.#{i}.#{j}"
        getInfo(current_ip)
      end
-    when 13
+    when 213
      for j in (1..10)
        current_ip = "#{TwoOctets}.#{i}.#{j}"
        getInfo(current_ip)
      end
-    when 14
+    when 214
      for j in (1..10)
        current_ip = "#{TwoOctets}.#{i}.#{j}"
        getInfo(current_ip)
      end
-    when 15
+    when 215
      for j in (1..10)
        current_ip = "#{TwoOctets}.#{i}.#{j}"
        getInfo(current_ip)
