@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require 'net/ping'; require 'rainbow'
+require 'net/ping'; require 'rainbow/ext/string'
 
 # This multi-threaded script will run an ICMP sweep on a network range, output if the host is up/down, & report packet metrics.
 
@@ -25,15 +25,20 @@ host_up   = []
 host_down = []
 pingfails = 0
 repeat    = 1
-x         = 200
+x         = 0
 
+unless ARGV.length == 1
+puts "\n\nMissing argument!\n\n".foreground(:red).bright.blink
+puts "Example. #{$0} 74.125.224 or #{$0} google.com".foreground(:green).bright
 puts "\nThis script will run an ICMP sweep on a network range, output if the host is up/down, & report packet metrics.".foreground(:yellow).bright
 puts "To start enter the first three IP octets only. The fourth octet range from .0-255 is already hardcoded into the program.".foreground(:yellow).bright
 puts "DONT".foreground(:red).underline + " enter a period after the 3rd octet or you'll get invalid results. Enter exactly like this: 74.125.224\n".foreground(:yellow).bright
 prompt    = 'ping sweep IP range:~$ '.foreground(:cyan).bright 
+end
 
-print prompt
-network = STDIN.gets.chomp()
+#print prompt
+#network = STDIN.gets.chomp()
+network = ARGV[0]
 
 puts "starting sweep on ".foreground(:cyan).bright + "#{network}.0-255\n".foreground(:yellow).bright
 while x < 255
