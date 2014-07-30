@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 require 'rainbow/ext/string';require "socket"
 
-TwoOctets = "68.71"
+first_two_octets = "0.0"
 
 def computer_exists?(computerip)
  system("ping -c 1 -W 1 #{computerip}")
@@ -31,46 +31,46 @@ def getInfo(current_ip)
 end
 
 
-(208..215).each do |i|
- case i
-   when 208
-     for j in (1..10)
-       current_ip = "#{TwoOctets}.#{i}.#{j}"
+(8..15).each do |third_octet|
+ case third_octet
+   when 8
+     for fourth_octet in (1..10)
+       current_ip = "#{first_two_octets}.#{third_octet}.#{fourth_octet}"
        getInfo(current_ip)
      end
-   when 209
-     for j in (1..10)
-       current_ip = "#{TwoOctets}.#{i}.#{j}"
+   when 9
+     for fourth_octet in third_octet (1..10)
+       current_ip = "#{first_two_octets}.#{third_octet}.#{fourth_octet}"
        getInfo(current_ip)
      end
-   when 210
-     for j in (1..10)
-       current_ip = "#{TwoOctets}.#{i}.#{j}"
+   when 10
+     for fourth_octet in (1..10)
+       current_ip = "#{first_two_octets}.#{third_octet}.#{fourth_octet}"
        getInfo(current_ip)
      end
-    when 211
-     for j in (1..10)
-       current_ip = "#{TwoOctets}.#{i}.#{j}"
+    when 11
+     for fourth_octet in (1..10)
+       current_ip = "#{first_two_octets}.#{third_octet}.#{fourth_octet}"
        getInfo(current_ip)
      end
-    when 212
-     for j in (1..10)
-       current_ip = "#{TwoOctets}.#{i}.#{j}"
+    when 12
+     for fourth_octet in (1..10)
+       current_ip = "#{first_two_octets}.#{third_octet}.#{fourth_octet}"
        getInfo(current_ip)
      end
-    when 213
-     for j in (1..10)
-       current_ip = "#{TwoOctets}.#{i}.#{j}"
+    when 13
+     for fourth_octet in (1..10)
+       current_ip = "#{first_two_octets}.#{third_octet}.#{fourth_octet}"
        getInfo(current_ip)
      end
-    when 214
-     for j in (1..10)
-       current_ip = "#{TwoOctets}.#{i}.#{j}"
+    when 14
+     for fourth_octet in (1..10)
+       current_ip = "#{first_two_octets}.#{third_octet}.#{fourth_octet}"
        getInfo(current_ip)
      end
-    when 215
-     for j in (1..10)
-       current_ip = "#{TwoOctets}.#{i}.#{j}"
+    when 15
+     for fourth_octet in (1..10)
+       current_ip = "#{first_two_octets}.#{third_octet}.#{fourth_octet}"
        getInfo(current_ip)
      end
  end
