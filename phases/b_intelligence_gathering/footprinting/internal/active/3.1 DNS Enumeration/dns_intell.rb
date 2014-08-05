@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require 'rainbow'
+require 'rainbow/ext/string'
 
 # zone-xsfr ref: http://stackoverflow.com/questions/19416968/attempting-zone-transfer-with-ruby << thx Tin Man!
 
