@@ -1,4 +1,0 @@
-
-Starting Nmap 5.35DC1 ( http://nmap.org ) at 2011-05-31 14:31 PDT
-Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
-Nmap done: 1 IP address (0 hosts up) scanned in 0.38 seconds
