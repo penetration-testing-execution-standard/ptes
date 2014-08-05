@@ -1,5 +1,0 @@
-# Nmap 5.35DC1 scan initiated Wed Jun 15 18:42:54 2011 as: nmap -A -p 1-65535 -Pn -vvv -T4 -oG tcp_network_sweep_201.txt 192.168.15.201
-# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
-Host: 192.168.15.201 ()	Status: Up
-Host: 192.168.15.201 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Microsoft Windows XP microsoft-ds/, 60000/open/tcp//ssh//WeOnlyDo sshd 2.0.6 (protocol 2.0)/	Ignored State: closed (65531)	Seq Index: 124	IP ID Seq: Incremental
-# Nmap done at Wed Jun 15 19:01:44 2011 -- 1 IP address (1 host up) scanned in 1130.31 seconds
