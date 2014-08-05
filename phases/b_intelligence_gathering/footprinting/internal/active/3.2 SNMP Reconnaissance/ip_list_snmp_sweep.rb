@@ -9,7 +9,7 @@ unless ARGV.length == 1
 			exit
 end
 
-users = "1.3.6.1.4.1.77.1.2.25".to_s
+#users = "1.3.6.1.4.1.77.1.2.25".to_s
 
 
 begin
@@ -18,10 +18,10 @@ begin
 			f.each_line do |lines|                         # call each_line method, & iterate thru file like an array
 			  
 			puts "\n[+] Enumerating entire MIB tree.".foreground(:yellow).bright
-			#system 'snmpwalk -c public -v1' << " #{lines}"                                  # enumerate entire MIB tree
+			system 'snmpwalk -c public -v1' << " #{lines}"                                  # enumerate entire MIB tree
 			
 			puts "\n[+] Enumerating windows users.".foreground(:yellow).bright
-			system 'snmpwalk -c public -v1' << " #{lines} #{users}"        # enumerate windows users
+			#system 'snmpwalk -c public -v1' << " #{lines}"        # enumerate windows users
 
 			#puts "\n[+] Enumerating running windows processes.".foreground(:yellow).bright
 			#system 'snmpwalk -c public -v1' << " #{lines}" + '1.3.6.1.2.1.25.4.2.1.2'       # enumerate running windows processes
