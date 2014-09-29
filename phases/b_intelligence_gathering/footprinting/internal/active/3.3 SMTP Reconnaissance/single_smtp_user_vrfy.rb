@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require 'socket'; require 'rainbow'
+require 'socket'; require 'rainbow/ext/string'
 
 
 unless ARGV.length == 3
