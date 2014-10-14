@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require 'socket'; require 'rainbow'
+require 'socket'; require 'rainbow/ext/string'
 
 ## SMTP word-list user verification by Rick Flores (@nanotechz9l)]
 
