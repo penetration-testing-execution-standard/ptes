@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require 'rainbow'
+require 'rainbow/ext/string'
 
 #### Welcome to the Penetration Testing Execution Standard (PTES) Automation Framework! Written by Rick Flores (nanotechz9l)
 # Where the goal is to help automate certain phases of a pen test...
