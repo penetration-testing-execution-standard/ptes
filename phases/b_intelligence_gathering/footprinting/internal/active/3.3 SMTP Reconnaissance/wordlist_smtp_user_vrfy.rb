@@ -11,7 +11,7 @@ end
 
 begin
 				ip, port = ARGV[0..1]                        # TO-DO : Need to add additional filename ARGV to get rid of hardcoded 
-                                                     # file name 'list.txt' below.
+                                                             # file name 'list.txt' below.
 				File.open('list.txt', "r") do |f|            # Open word list in read mode, and assign code block
 				f.each_line do |lines|                       # Call each_line method, & iterate thru file like an array
 				s = TCPSocket.new(ARGV[0], ARGV[1])          # Create socket, connect to server + ip given at runtime

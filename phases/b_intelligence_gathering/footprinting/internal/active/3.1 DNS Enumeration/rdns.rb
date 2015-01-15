@@ -1,6 +1,9 @@
 #!/usr/bin/env ruby
 require 'rainbow/ext/string'
 
+ ## Coded by Rick Flores for the PTES framework
+ #
+ #
  unless ARGV.length == 1
  puts "\nMissing argument!".foreground(:red).bright
  puts "\nUsage: ".foreground(:white).bright + "#{$0} 74.125.224".foreground(:white).bright.blink

@@ -17,7 +17,7 @@ end
 banner()
 
  unless ARGV.length ==2
-	puts "\nCorrect usage: #{$0} hostnames.txt xyz.com\n".foreground(:yellow).bright
+	puts "\nCorrect usage: #{$0} hosts.txt xyz.com\n".foreground(:yellow).bright
  exit
  end
    
